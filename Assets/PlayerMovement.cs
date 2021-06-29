@@ -75,7 +75,7 @@ public class PlayerMovement : MonoBehaviour
         {
 
             Destroy(collision.gameObject);
-            scoremanager.IncrementScore();
+            scoremanager.DecrementScore();
         }
     }
 }
